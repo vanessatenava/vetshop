@@ -1,0 +1,79 @@
+*                                              { margin:0;	padding:0; }
+html                                           { background: #ced9dc;	height:100%; overflow-y:scroll; }
+body                                           { background:url(img/body-centerBg.png) top center repeat; height:100%;	width:100%; display:table; font:12px/160% arial, sans-serif; color:#5a5a5a; }
+a                                              { color:#00f;	outline:none; border:none; }
+img                                            { border:none; }
+
+/* layout */
+
+#container                                     { position:relative; margin:0 auto; background:url(img/container-bg.png); width:990px; overflow:hidden; }
+
+#header                                        { height:121px; width:990px; }
+nav                                            { height:56px; width:990px; background:url(img/nav.png); }
+
+#home																					 { height:121px; width:379px; margin-left:40px; float:left; background:url(logo.png);}
+#header .header-number                         { position:absolute; top:40px; left:615px; height:28px; width:382px; color:#5a5a5a; font-size: 1.5em;}
+
+#content                                       {float:left; padding:30px; margin:0 0 20px 33px; width:800px; border: 1px solid #ccc; border-radius: 25px;}
+h2                                             {display:block; font-weight:bold; font-size:25px; top:9px; color:#4ba1c5; margin-top:10px; margin-bottom:20px; line-height:110%}
+h3                                             {text-decoration: underline;}
+#content p                                     {text-indent: 50px; text-align: justify;}
+#content li                                    {list-style-position: inside;line-height: 1.6;}
+
+
+#footer                                         { height:40px; width:100%; text-align:center; padding:30px 0 30px 0; font-size:11px; background:url(img/footer-bg.png); color:#fff; }
+#footer a                                      { font-size: 1.2em;color:#fff; text-decoration:none; }
+#footer a:hover                                { color:#5a5a5a; }
+
+
+/* nav */
+
+#navlinks                                      { height:56px; width:662px; margin-left:15px; float:left; }
+#navlinks li                                   { width:960px; display:inline;	list-style:none;}
+#navlinks li a                                 { float:left;	display:block; padding-left: 30px;height:56px; text-decoration: none; color:white; font-size:1.5em; padding-top:7px;}
+
+#navlinks li.item1 a                           { width:98px;}
+#navlinks li.item2 a                           { width:130px;}
+#navlinks li.item3 a                           { width:153px;}
+#navlinks li.item4 a                           { width:144px;}
+
+#navlinks li.item1 a:hover                     { width:98px; height: 32px;background:gray; }
+#navlinks li.item2 a:hover                     { width:130px; height: 32px;background:gray;}
+#navlinks li.item3 a:hover                     { width:153px; height: 32px;background:gray; }
+#navlinks li.item4 a:hover                     { width:144px; height: 32px;background:gray; }
+
+
+/* link styles */
+a:link {color:#116BCF;}
+a:active{color:#116BCF;}
+a:visited {color:#116BCF;}
+a:hover {color:#4692b0;}
+
+/* form*/
+input[type=text],input[type=tel], input[type=email], textarea {
+      width: 60%;
+      height: 30px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      float:right;
+      /*resize: vertical;*/
+}
+
+label {
+  font-weight: bold;
+  
+}
+/*
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}*/
